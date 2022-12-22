@@ -1,0 +1,97 @@
+
+.annonce{
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 56px;
+    max-width: 380px;
+}
+
+.annonce img{
+    object-fit: cover;
+    height: 380px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.annonce p{
+    max-width: 125px;
+    color: white;
+    float: top;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+        bottom: 20px;
+        left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 35px;
+}
+
+@media all and (max-width: 669px)
+{
+    
+.annonce{
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    min-width: 100%;
+}
+
+.annonce img{
+    object-fit: cover;
+    height: 200px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.annonce p{
+    max-width: 125px;
+    color: white;
+    float: top;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 35px;
+}
+}
+
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 1075px)
+{
+    .annonce{
+        position: relative;
+        border-radius: 15px;
+        margin-bottom: 56px;
+        max-width: 250px;
+    }
+    
+    .annonce img{
+        object-fit: cover;
+        height: 250px;
+        border-radius: 15px;
+        width: 100%;
+    }
+    
+}
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 782px)
+{
+    .annonce{
+        position: relative;
+        border-radius: 15px;
+        margin-bottom: 56px;
+        max-width: 150px;
+    }
+    
+    .annonce img{
+        object-fit: cover;
+        height: 150px;
+        border-radius: 15px;
+        width: 100%;
+    }
+    
+}

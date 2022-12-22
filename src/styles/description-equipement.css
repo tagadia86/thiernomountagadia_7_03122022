@@ -1,0 +1,17 @@
+
+.description-equipement{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .description-equipement{
+        margin-top: 0px;
+        display: contents;
+ 
+    }
+}
+   

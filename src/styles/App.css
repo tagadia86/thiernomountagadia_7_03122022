@@ -1,0 +1,31 @@
+.App {
+    
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .App{
+        /*padding: 15px 15px 15px 15px;*/
+        display: contents;
+    }
+    
+}
+
+
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (min-width: 1600px)
+{
+    .App{
+        max-width: 1500px;
+    }
+    
+}
+

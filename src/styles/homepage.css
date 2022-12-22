@@ -1,0 +1,35 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (min-width: 1200px)
+{
+
+    .hero-margin1{
+        margin-top: 75px;
+       
+    }
+    
+}
+
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 967px)
+{
+    .homepage{
+        padding: 0px 10px 0px 10px;
+    }
+}
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .homepage{
+        margin: 15px;
+    }
+    
+}
+
+

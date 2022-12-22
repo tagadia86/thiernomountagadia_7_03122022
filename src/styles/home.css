@@ -1,0 +1,27 @@
+.annonces-wrapper {
+    width: 100%;
+}
+
+.annonces-wrapper ul{
+   
+    padding: 56px 50px 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /*à centrer sur les petites tailles*/
+    background-color: #F6F6F6;
+    list-style-type: none;
+    border-radius: 15px;
+}
+
+@media all and (max-width: 669px)
+{
+    .annonces-wrapper {
+        width: 100%;
+    }
+    
+    .annonces-wrapper ul{
+       
+        padding: 0px;
+        display:contents;
+    }
+}

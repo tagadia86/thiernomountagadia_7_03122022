@@ -1,0 +1,54 @@
+.carrousel {
+    position: relative;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.carrousel img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.fa-chevron-right{
+    position: absolute;
+        right: 0px;
+        top: 45%;
+        color: white;
+        font-size: 40px;
+}
+
+.fa-chevron-left{
+    position: absolute;
+        left: 0px;
+        top: 45%;
+        color: white;
+        font-size: 40px;
+}
+
+.carrousel p{
+    position: absolute;
+        bottom: 0px;
+        right: 50%;
+        color: white;
+}
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .carrousel {
+        position: relative;
+        height: 230px;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .carrousel img{
+        height: 230px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+

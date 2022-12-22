@@ -1,0 +1,64 @@
+
+.apropos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.text-zones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-position{
+    margin-top: auto;
+    width: 100%;
+}
+.hero-apropos{
+    width: 100%;
+}
+
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (min-width: 1500px)
+{
+    .hero-apropos{
+        margin-bottom: 60px;
+    }
+
+}
+
+
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 1015px)
+{
+    .apropos{
+        padding: 0px 10px 0px 10px;
+    }
+
+}
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .apropos{
+
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+    .text-zones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  min-height: 100vh;
+}
+
+
